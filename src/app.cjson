@@ -9,8 +9,9 @@
         4. 触发条件是：每次在 src/pages 目录下新建一个空文件夹时
     */
     /*# INJECT_START {"key": "page"} #*/
-    "pages/index/index",
-    "pages/logs/logs",
+    "pages/home-pages/index/index",
+    "pages/code-pages/code/code",
+    "pages/user-pages/my/my",
     /*# INJECT_END #*/
   ],
   "window": {
@@ -25,19 +26,19 @@
     "backgroundColor": "",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home-pages/index/index",
         "text": "中心",
         "iconPath": "./images/like.png",
         "selectedIconPath": "./images/like_fill.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/code-pages/code/code",
         "text": "扫描",
         "iconPath": "./images/collection.png",
         "selectedIconPath": "./images/collection_fill.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/user-pages/my/my",
         "text": "个人",
         "iconPath": "./images/people.png",
         "selectedIconPath": "./images/people_fill.png"
