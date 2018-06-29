@@ -1,0 +1,43 @@
+/*
+ * 通用样式
+ * @Author: Cphayim 
+ * @Date: 2018-03-27 18:07:07 
+ * @Last Modified by: wsq
+ * @Last Modified time: 2018-05-09 11:34:44
+ */
+@import './style-config.scss';
+
+.hover {
+  position: relative;
+}
+
+.hover::after {
+  position: absolute;
+  z-index: 50;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  display: block;
+  content: '';
+  background-color: rgba(32, 32, 32, 0.1);
+}
+
+.input-placeholder{
+  @include font($f_small,#bbb,300);
+}
+
+
+.pd{
+  width: 100%;
+  overflow: hidden;
+  padding:r(25);
+}
+// 去除按钮组件圆角
+button::after {
+  border-radius: 0;
+}
+
+button{
+  border-radius: 0;
+}
