@@ -4,7 +4,7 @@
   "description": "A wonderful miniapp application",
   "scripts": {
     "test": "echo 0",
-    "clear": "minapp clear dist",
+    "clear": "rimraf ./dist",
     "dev": "minapp dev",
     "build": "minapp build --publicPath http://your.static.server/"
   },
@@ -19,6 +19,7 @@
   "devDependencies": {
     "babel-runtime": "^6.24.0",
     "node-sass": "^4.9.0",
+    "rimraf": "^2.6.2",
     "sass-loader": "^7.0.3"
   }
 }

@@ -2,7 +2,6 @@
 dist
 .cache
 vendor
-node_modules
 coverage
+node_modules
 .DS_Store
-package-lock.json
