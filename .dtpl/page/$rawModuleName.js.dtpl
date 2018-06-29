@@ -11,4 +11,5 @@ export default class extends MyPage {
   async onLoad(options) {
     console.log(await wxp.getUserInfo())
   }
+
 }
