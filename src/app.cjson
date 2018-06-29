@@ -12,6 +12,7 @@
     "pages/home-pages/index/index",
     "pages/code-pages/code/code",
     "pages/user-pages/my/my",
+    "pages/user-pages/order-list/order-list",
     /*# INJECT_END #*/
   ],
   "window": {

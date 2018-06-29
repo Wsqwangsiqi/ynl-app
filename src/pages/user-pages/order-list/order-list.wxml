@@ -1,0 +1,7 @@
+<!--
+  order-list 页面
+  Create at 2018-06-29 14:37
+-->
+<view class="p-order-list">
+  page: order-list
+</view>
