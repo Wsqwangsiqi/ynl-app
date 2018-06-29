@@ -1,8 +1,9 @@
 <!--
-  此文件是由模板文件 ".dtpl/page/$rawModuleName.wxml.dtpl" 生成的，你可以自行修改模板
-
-  注意：
-  1. 如果没有语法高亮，且你使用的是 vscode 编辑器的话，建义在 vscode 插件库中安装 minapp-vscode 插件
+  my 页面
+  Create at 2018-06-29 14:35
 -->
+<view class="p-my">
+  page: my
+  <view bindtap="changeName">点击事件</view>
 
-<text>page: my</text>
+</view>

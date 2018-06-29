@@ -11,4 +11,13 @@ export default class extends MyPage {
   async onLoad(options) {
     console.log(await wxp.getUserInfo())
   }
+
+    /**
+   * 初始化页面
+   * 重写父类的 _init()
+   * 异步调用栈 onLoad -> _origin -> _init
+   */
+  async _init(){
+
+  }
 }
