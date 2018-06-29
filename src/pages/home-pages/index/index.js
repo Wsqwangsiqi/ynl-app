@@ -4,6 +4,8 @@ import {pagify, MyPage, wxp} from 'base/'
 
 @pagify()
 export default class extends MyPage {
+  pageName = 'home/index'
+
   data = {
 
   }

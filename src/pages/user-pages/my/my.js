@@ -2,9 +2,12 @@
 
 import {pagify, MyPage, wxp} from 'base/'
 import { toast, modal } from 'utils/layer';
+import { getPageConfig } from 'utils/helper';
 
 @pagify()
 export default class extends MyPage {
+  pageName = 'user/my'
+
   data = {
 
   }
@@ -13,10 +16,6 @@ export default class extends MyPage {
 
   }
 
-
   changeName(){
-     wxp.switchTab({
-       url:'../../code-pages/code/code'
-     })
   }
 }
