@@ -9,7 +9,10 @@ export default class extends MyPage {
   pageName = 'user/my'
 
   data = {
-
+    userList:{
+      Id:'微信Id',
+      img:'https://api.vtrois.com/image/180'
+    }
   }
 
   async onLoad(options) {

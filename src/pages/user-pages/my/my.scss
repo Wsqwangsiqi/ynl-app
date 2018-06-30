@@ -1,6 +1,29 @@
-
 @import '../../../styles/style-config.scss';
 
 .p-my{
 
+}
+.service-box{
+    height: r(50);
+    border-bottom: r(1) solid #eeeeee;
+    padding:0 r(10);
+    display: flex;
+    align-items: center;
+    .service-icon{
+        width: r(20);
+        height: r(20);
+    }
+    .order{
+        @include image(data('./icons/form.png'));
+    }
+    .record{
+        @include image(data('./icons/time.png'));
+    }
+    .us{
+        @include image(data('./icons/phone.png'));
+    }
+    .service-title{
+        width: r(250);
+        margin-left: r(10)
+    }
 }

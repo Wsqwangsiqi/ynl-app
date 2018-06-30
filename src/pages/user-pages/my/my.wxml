@@ -1,9 +1,20 @@
-<!--
-  my 页面
-  Create at 2018-06-29 14:35
--->
+<!-- my 页面
+  Create at 2018-06-29 14:35 -->
 <view class="p-my">
-  page: my
-  <view bindtap="changeName">点击事件</view>
-
+  <user-header list="{{userList}}"></user-header>
+  <!-- 我的订单 -->
+  <view class="service-box">
+    <view class="service-icon order"></view>
+    <view class="service-title">我的订单</view>
+  </view>
+  <!--充电记录  -->
+  <view class="service-box">
+    <view class="service-icon record"></view>
+    <view class="service-title">充电记录</view>
+  </view>
+  <!--联系我们  -->
+  <view class="service-box">
+    <view class="service-icon us"></view>
+    <view class="service-title">联系我们</view>
+  </view>
 </view>

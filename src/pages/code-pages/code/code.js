@@ -11,7 +11,9 @@ export default class extends MyPage {
   }
 
   async onLoad(options) {
-    console.log(await wxp.getUserInfo())
+    wxp.scanCode().then(()=>{
+      console.log('123')
+    })
   }
 
     /**
