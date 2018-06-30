@@ -59,7 +59,7 @@ module.exports = (source) => {
       {
         name: './component/',
         matches() {
-          return source.isDirectory && /^(common|biz|icon)?$/.test(source.basicData.dirName);
+          return source.isDirectory && /^components?$/.test(source.basicData.dirName)
         }
       }
     ],

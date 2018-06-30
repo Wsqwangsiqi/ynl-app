@@ -3,3 +3,4 @@
 
   注意：文件为空，编译时不会生成新文件
 */
+@import '../../styles/style-config.scss';
