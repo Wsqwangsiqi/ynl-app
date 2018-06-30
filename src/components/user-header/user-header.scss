@@ -1,0 +1,28 @@
+/*
+  此文件是由模板文件 ".dtpl/component/$rawModuleName.$style.dtpl" 生成的，你可以自行修改模板
+
+  注意：文件为空，编译时不会生成新文件
+*/
+@import '../../styles/style-config.scss';
+.header{
+  height: r(250);
+  @include image(data('./icons/background.png'));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .user-info{
+      width: r(300);
+      height: r(250);
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      .user-header{
+          width: r(150);
+          height: r(150);
+      }
+      .welcome{
+          color:white;
+      }
+  }
+}
