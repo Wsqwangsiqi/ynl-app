@@ -3,7 +3,7 @@
 <view class="p-my">
   <user-header list="{{userList}}"></user-header>
   <!-- 我的订单 -->
-  <view class="service-box">
+  <view bind:tap="toOrder" class="service-box">
     <view class="service-icon order"></view>
     <view class="service-title">我的订单</view>
   </view>

@@ -19,6 +19,9 @@ export default class extends MyPage {
 
   }
 
-  changeName(){
+  toOrder(){
+    wxp.navigateTo({
+      url: `${getPageConfig('user/order').url}`
+    })
   }
 }

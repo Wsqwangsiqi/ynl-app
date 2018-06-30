@@ -4,3 +4,88 @@
 .p-index{
 
 }
+.box{
+    height: r(35);
+    border-bottom:r(1) solid #eeeeee;
+    line-height: r(35);
+    padding: 0 r(15);
+    font-size: r(15);
+    .gray-font{
+        color:#999;
+    }
+}
+.phone-box{
+    height: r(70);
+    border-bottom:r(1) solid #eeeeee;
+    .phone-info{
+        height: r(30);
+        padding: 0 r(15);
+        font-size: r(15);
+        line-height: r(30);
+        display: flex;
+        align-items: center;
+        .title{
+            width: r(60);
+        }
+        .icon{
+            width: r(50);
+            height: r(22);
+            font-size: r(10);
+            line-height: r(22);
+            margin-left: r(15);
+            border-radius: r(11);
+            border: solid r(1) #ebebeb;
+            color:#96cc32;
+            text-align: center;
+        }
+    }
+    .call{
+        height: r(40);
+        padding: 0 r(15);
+        font-size: r(20);
+        line-height: r(40);
+        color:#96cc32;
+    }
+}
+// 选择价格
+.chose-box{
+    height:auto;
+    .header{
+        height: r(40);
+        line-height: r(40);
+        padding:0 r(15);
+    }
+    .item-box{
+        height: r(120);
+        display: flex;
+        flex-wrap: wrap;
+        .item{
+            width: 50%;
+            height: r(60);
+            .chose{
+                padding:0 r(15);
+                .border-box{
+                    padding:0 r(15);
+                    border: r(1) solid #ebebeb;
+                    height: r(50);
+                    line-height: r(50);
+                    font-size: r(16);
+                    display: flex;
+                    justify-content: space-between;
+                    .price{
+                        width: r(55);
+                        text-align: left;
+                    }
+                    .type{
+                        width: r(90);
+                        text-align: right;
+                    }
+                }
+                .active{
+                    color: #96cc32;
+                    border: r(1) solid #96cc32;
+                }
+            }
+        }
+    }
+}

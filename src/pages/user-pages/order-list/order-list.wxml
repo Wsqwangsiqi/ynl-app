@@ -3,5 +3,25 @@
   Create at 2018-06-29 14:37
 -->
 <view class="p-order-list">
-  page: order-list
+    <view class="header">
+        显示30天的订单记录
+    </view>
+    <view class="order-list-box">
+        <view class="order-header">
+          <view class="location">所属小区</view>
+          <view class="time">时间</view>
+          <view class="price">金额&说明</view>
+        </view>
+        <!--  -->
+        <view class="order-info">
+          <view class="location">天上人间</view>
+          <view class="time">2018/1/5 13：00</view>
+          <view class="price">2.5元(购买计时2小时)</view>
+        </view>
+        <view class="order-info">
+          <view class="location">天上人间</view>
+          <view class="time">2018/1/5 13：00</view>
+          <view class="price">2.5元(购买计时2小时)</view>
+        </view>
+    </view>
 </view>

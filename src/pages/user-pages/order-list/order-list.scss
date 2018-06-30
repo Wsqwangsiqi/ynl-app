@@ -4,3 +4,45 @@
 .p-order-list{
 
 }
+.header{
+    height: r(30);
+    padding:0 r(15)
+}
+.order-list-box{
+    height: auto;
+    padding: r(15);
+    .order-header{
+        height: r(35);
+        color: #8fc31f;
+        border-bottom: r(3) solid  #8fc31f;
+        display: flex;
+        font-size: r(16);
+        line-height: r(35);
+        .location{
+            width: 25%;
+        }
+        .time{
+            width: 30%;
+        }
+        .price{
+            width: 45%;
+        }
+    }
+    .order-info{
+        border-bottom: r(1) solid #eee;
+        height: r(40);
+        font-size: r(16);
+        line-height: r(40);
+        display: flex;
+        .location{
+            width: 25%;
+        }
+        .time{
+            width: 30%;
+            font-size: r(12);
+        }
+        .price{
+            width: 45%;
+        }
+    }
+}
