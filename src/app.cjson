@@ -15,6 +15,9 @@
     "pages/user-pages/order-list/order-list",
     "pages/user-pages/charging-record/charging-record",
     "pages/home-pages/undone/undone",
+    "pages/user-pages/charging/charging",
+    "pages/user-pages/order-success/order-success",
+    "pages/user-pages/pay/pay",
     /*# INJECT_END #*/
   ],
   "window": {

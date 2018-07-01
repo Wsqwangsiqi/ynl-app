@@ -1,0 +1,37 @@
+
+@import '../../../styles/style-config.scss';
+
+.p-pay{
+
+}
+.box{
+    height: r(45);
+    border-bottom:r(1) solid #eeeeee;
+    line-height: r(45);
+    padding: 0 r(15);
+    font-size: r(15);
+    .gray-font{
+        color:#999;
+    }
+}
+.price-box{
+    padding: 0 r(15); 
+    height: r(60);
+    line-height: r(60);
+    font-size: r(30);
+    color: #8dc932;
+    .type{
+        font-size: r(16);
+        color: #999;
+    }
+}
+.btn{
+   height: r(53);
+   line-height: r(53);
+   width: 90%;
+   margin: r(10) auto; 
+   background-color: #8FC31F;
+   color:white;
+   text-align: center;
+   border-radius: r(5)
+}

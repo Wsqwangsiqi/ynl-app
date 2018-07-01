@@ -1,0 +1,60 @@
+
+@import '../../../styles/style-config.scss';
+
+.p-charging{
+
+}
+.bg{
+    height: r(95);
+    @include image(data('./icons/bg.png'));
+    padding:0 r(15);
+    display: flex;
+    align-items: center;
+    .header{
+        width: r(80);
+        height: r(80);
+    }
+    .content{
+        width: r(200);
+        height: r(80);
+        display:flex;
+        flex-flow:column;
+        justify-content:space-around;
+        padding: r(15);
+        color: #fff;
+        font-size: r(15)
+    }
+}
+.box{
+    height: r(45);
+    border-bottom:r(1) solid #eeeeee;
+    line-height: r(45);
+    padding: 0 r(15);
+    font-size: r(15);
+    .gray-font{
+        color:#999;
+    }
+}
+.charging-box{
+    height: r(230);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    .icon{
+        height: r(100);
+        width: r(70);
+        @include image(data('./icons/chaging.png'));
+    }
+    .tip{
+        height: r(27);
+        font-size: r(14);
+        line-height: r(27);
+        color: #999;
+    }
+    .time{
+        height: r(35);
+        font-size: r(27);
+        line-height: r(35);
+    }
+}

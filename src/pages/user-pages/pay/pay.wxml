@@ -1,0 +1,23 @@
+<!--
+  pay 页面
+  Create at 2018-07-01 16:47
+-->
+<view class="p-pay">
+  <view style="border:none" class="box">
+    确认您的订单
+  </view>
+  <view class="box">
+    福清永华小区
+    <text class="gray-font">(FQ00222)</text>
+  </view>
+  <view class="box">
+    充电桩号
+    <text class="gray-font">(FQ00222)</text>
+  </view>
+  <view class="price-box">
+    50元<text class="type">包季</text>
+  </view>
+  <view class='btn'>
+    确认支付
+  </view>
+</view>

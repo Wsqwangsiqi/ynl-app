@@ -2,7 +2,6 @@
   Create at 2018-07-01 14:25 -->
 <view class="p-undone">
   <view class="bg">
-    <!-- <view class="header">1</view> -->
     <image class="header" src="https://api.vtrois.com/image/80" />
     <view class="content">
       <view>欢迎您，微信ID</view>

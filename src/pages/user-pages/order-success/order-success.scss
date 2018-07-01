@@ -1,0 +1,29 @@
+
+@import '../../../styles/style-config.scss';
+
+.p-order-success{
+
+}
+.charging-box{
+    height: r(290);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEBEB;
+    .icon{
+        height: r(100);
+        width: r(70);
+        @include image(data('./icons/chaging.png'));
+    }
+    .tip{
+        height: r(27);
+        line-height: r(27);
+    }
+    .time{
+        height: r(35);
+        line-height: r(35);
+        font-size: r(14);
+        color: #999;
+    }
+}

@@ -1,0 +1,26 @@
+<!--
+  charging 页面
+  Create at 2018-07-01 15:21
+-->
+<view class="p-charging">
+   <view class="bg">
+    <image class="header" src="https://api.vtrois.com/image/80" />
+    <view class="content">
+      <view>欢迎您，微信ID</view>
+      <view>2018/6/25 15：42</view>
+    </view>
+  </view>
+  <view class="box">
+    福清永华小区
+    <text class="gray-font">(FQ00222)</text>
+  </view>
+  <view class="box">
+    充电桩号
+    <text class="gray-font">(FQ00222)</text>
+  </view>
+  <view class="charging-box">
+        <view class="icon"></view>
+        <view class="tip">充电中，还剩</view>
+        <view class="time">13：00</view>
+  </view>
+</view>
