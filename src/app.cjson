@@ -14,6 +14,7 @@
     "pages/user-pages/my/my",
     "pages/user-pages/order-list/order-list",
     "pages/user-pages/charging-record/charging-record",
+    "pages/home-pages/undone/undone",
     /*# INJECT_END #*/
   ],
   "window": {

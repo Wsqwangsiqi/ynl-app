@@ -1,0 +1,37 @@
+<!-- undone 页面
+  Create at 2018-07-01 14:25 -->
+<view class="p-undone">
+  <view class="bg">
+    <!-- <view class="header">1</view> -->
+    <image class="header" src="https://api.vtrois.com/image/80" />
+    <view class="content">
+      <view>欢迎您，微信ID</view>
+      <view>2018/6/25 15：42</view>
+    </view>
+  </view>
+  <view class="box">
+    福清永华小区
+    <text class="gray-font">(FQ00222)</text>
+  </view>
+   <view style='border:none' class="box">
+    您在本小区的旧订单列表
+  </view>
+    <view class="order-list-box">
+        <view class="order-header">
+          <view class="location">订单编号</view>
+          <view class="time">购买</view>
+          <view class="price">剩余(小时)</view>
+        </view>
+        <!--  -->
+        <view class="order-info">
+          <view class="location">C0012</view>
+          <view class="time">4</view>
+          <view class="price">2.5</view>
+        </view>
+        <view class="order-info">
+          <view class="location">C0012</view>
+          <view class="time">4</view>
+          <view class="price">2.5</view>
+        </view>
+    </view>
+</view>

@@ -19,6 +19,9 @@ export default {
   'home/index': {
     url: '/pages/home-pages/index/index'
   },
+  'home/undone': {
+    url: '/pages/home-pages/undone/undone'
+  },
   /**
    * code 扫码模块
    */
