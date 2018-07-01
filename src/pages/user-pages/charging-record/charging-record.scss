@@ -1,0 +1,44 @@
+
+@import '../../../styles/style-config.scss';
+
+.p-charging-record{
+
+}
+.header{
+    height: r(30);
+    padding:0 r(15)
+}
+.charging-box{
+    padding: 0 r(15);
+    margin-bottom: r(10);
+    .charging-info{
+        height: r(120);
+        border: r(1) solid #eee;
+        .chrarging-header{
+            height: r(30);
+            padding: 0 r(15);
+            .bottom-line{
+                border-bottom: r(1) solid #eee;
+                height: r(30);
+                line-height: r(30);
+                color: #999999;
+            }
+        }
+        .charging-content{
+            padding:0 r(15);
+            .total{
+                height: r(55);
+                line-height: r(55);
+                color: #8dc932;
+                font-size: r(23)
+            }
+            .time{
+                height: r(35);
+                line-height: r(35);
+                font-size: r(14);
+                color: #999999;
+            }
+        }
+     
+    }
+}

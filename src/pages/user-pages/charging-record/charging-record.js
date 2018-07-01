@@ -1,10 +1,11 @@
-// 此文件是由模板文件 ".dtpl/page/${ref.dollar}rawModuleName.js.dtpl" 生成的，你可以自行修改模板
+// 此文件是由模板文件 ".dtpl/page/$rawModuleName.js.dtpl" 生成的，你可以自行修改模板
 
 import {pagify, MyPage, wxp} from 'base/'
 
 @pagify()
 export default class extends MyPage {
- pageName = ''
+  pageName = 'user/charging'
+
   data = {
 
   }

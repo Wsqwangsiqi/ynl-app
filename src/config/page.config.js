@@ -33,5 +33,10 @@ export default {
   },
   'user/order': {
     url: '/pages/user-pages/order-list/order-list'
-  }
+  },
+  // 充电记录
+  'user/charging': {
+    url: '/pages/user-pages/charging-record/charging-record'
+  },
+
 }

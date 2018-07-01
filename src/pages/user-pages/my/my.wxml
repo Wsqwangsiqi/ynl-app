@@ -3,12 +3,12 @@
 <view class="p-my">
   <user-header list="{{userList}}"></user-header>
   <!-- 我的订单 -->
-  <view bind:tap="toOrder" class="service-box">
+  <view bind:tap="toOrder" data-type='order' class="service-box">
     <view class="service-icon order"></view>
     <view class="service-title">我的订单</view>
   </view>
   <!--充电记录  -->
-  <view class="service-box">
+  <view bind:tap="toOrder" data-type='charging' class="service-box">
     <view class="service-icon record"></view>
     <view class="service-title">充电记录</view>
   </view>

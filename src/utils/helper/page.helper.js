@@ -35,7 +35,6 @@ export const getPageConfig = (pageName) => {
   }
 
   const resultConfig = Object.assign({}, DEFAULT_PAGE_CONFIG, page)
-  console.log(resultConfig);
 
   // resultConfig.shareUrl = (() => { // 分享页面地址
   //   let shareUrl

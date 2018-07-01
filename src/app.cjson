@@ -13,6 +13,7 @@
     "pages/code-pages/code/code",
     "pages/user-pages/my/my",
     "pages/user-pages/order-list/order-list",
+    "pages/user-pages/charging-record/charging-record",
     /*# INJECT_END #*/
   ],
   "window": {

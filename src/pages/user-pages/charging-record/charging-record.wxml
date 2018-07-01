@@ -1,0 +1,48 @@
+<!--
+  charging-record 页面
+  Create at 2018-06-30 18:42
+-->
+<view class="p-charging-record">
+    <view class="header">
+        显示30天的充电记录
+    </view>
+    <view class="charging-box">
+      <view class="charging-info">
+        <view class="chrarging-header">
+          <view class="bottom-line">
+            充电地点：天上人间小区
+          </view>
+        </view>
+        <view class="charging-content">
+          <view class="total">1小时23分</view>
+          <view class="time">TIME:2017/12/12 12:00 至 2017/12/12 55:00</view>
+        </view>
+      </view>
+    </view>
+    <view class="charging-box">
+      <view class="charging-info">
+        <view class="chrarging-header">
+          <view class="bottom-line">
+            充电地点：天上人间小区
+          </view>
+        </view>
+        <view class="charging-content">
+          <view class="total">1小时23分</view>
+          <view class="time">TIME:2017/12/12 12:00 至 2017/12/12 55:00</view>
+        </view>
+      </view>
+    </view>
+    <view class="charging-box">
+      <view class="charging-info">
+        <view class="chrarging-header">
+          <view class="bottom-line">
+            充电地点：天上人间小区
+          </view>
+        </view>
+        <view class="charging-content">
+          <view class="total">1小时23分</view>
+          <view class="time">TIME:2017/12/12 12:00 至 2017/12/12 55:00</view>
+        </view>
+      </view>
+    </view>
+</view>
