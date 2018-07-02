@@ -15,13 +15,13 @@
       <view class="title">服务热线</view>
       <view class="icon">点击拨打</view>
     </view>
-    <view class="call">400-330-8888</view>
+    <view bind:tap="call" data-phone="4003308888" class="call">400-330-8888</view>
   </view>
   <view class="chose-box">
     <view class="header">选址充值方案</view>
     <view class="item-box">
-      <view 
-      bind:tap='choseType' 
+      <view
+      bind:tap='choseType'
       data-index="{{index}}"
        wx:for="{{eleList}}" wx:key="{{item.price}}" class="item">
         <view class="chose">

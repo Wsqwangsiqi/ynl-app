@@ -37,4 +37,11 @@ export default class extends MyPage {
   async _init() {
 
   }
+
+  call(e){
+    const phone=e.currentTarget.dataset.phone
+    wxp.makePhoneCall({
+      phoneNumber:phone
+    })
+  }
 }
