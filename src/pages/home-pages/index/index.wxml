@@ -23,6 +23,8 @@
       <view
       bind:tap='choseType'
       data-index="{{index}}"
+      data-price="{{item.price}}"
+      data-type="{{item.type}}"
        wx:for="{{eleList}}" wx:key="{{item.price}}" class="item">
         <view class="chose">
           <view class="border-box {{index === activeIndex ? 'active' : ''}}">
@@ -31,30 +33,6 @@
           </view>
         </view>
       </view>
-      <!-- <view class="item">
-             <view class="chose">
-               <view class="border-box">
-                   <view class="price">1元</view>
-                <view class="type">2小时/次</view>
-               </view>
-             </view>
-          </view>
-          <view class="item">
-             <view class="chose">
-               <view class="border-box">
-                   <view class="price">2元</view>
-                <view class="type">包季</view>
-               </view>
-             </view>
-          </view>
-          <view class="item">
-             <view class="chose">
-               <view class="border-box active">
-                   <view class="price">3元</view>
-                <view class="type">包季</view>
-               </view>
-             </view>
-          </view> -->
     </view>
   </view>
 </view>
