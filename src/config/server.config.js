@@ -5,20 +5,19 @@ import { wxp } from '@minapp/core'
 
  */
 
-// 发布版本号
-const version = `v2.1.9`
+
 // 是否为生产环境
 const isProd = false
 
 // 请求主机名
 const host = isProd
-  ? `https://shop.vcar360.com` // 生产环境
-  : `https://shopdev.vcar360.com` // 测试环境
+  ? `` // 生产环境
+  : `` // 测试环境
 
 // extConfig 默认配置
 const extDefault = isProd
-  ? { tenantName: '云程科技', tenantId: 523 } // 生产环境
-  : { tenantName: '云程科技', tenantId: 340 } // 测试环境
+  ? {  } // 生产环境
+  : {  } // 测试环境
 
 // 获取 extConfig
 const extConfig = (() => {
@@ -33,7 +32,6 @@ const errorcode = {
 }
 
 export default {
-  version,
   host,
   errorcode,
   extConfig
