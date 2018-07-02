@@ -13,7 +13,7 @@
     <view class="service-title">充电记录</view>
   </view>
   <!--联系我们  -->
-  <view class="service-box">
+  <view bind:tap="toOrder" data-type='call' data-phone='1321354121' class="service-box">
     <view class="service-icon us"></view>
     <view class="service-title">联系我们</view>
   </view>
