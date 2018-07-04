@@ -15,7 +15,7 @@
     <text class="gray-font">(FQ00222)</text>
   </view>
   <view class="price-box">
-    50元<text class="type">包季</text>
+    {{price}}<text class="type">{{type}}</text>
   </view>
   <view class='btn'>
     确认支付

@@ -44,5 +44,8 @@ export default {
   'user/charging': {
     url: '/pages/user-pages/charging-record/charging-record'
   },
+  'user/pay': {
+    url: '/pages/user-pages/pay/pay'
+  },
 
 }

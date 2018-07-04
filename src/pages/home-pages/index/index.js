@@ -1,6 +1,7 @@
 // 此文件是由模板文件 ".dtpl/page/$rawModuleName.js.dtpl" 生成的，你可以自行修改模板
 
 import { pagify, MyPage, wxp } from 'base/'
+import { getPageConfig } from 'utils/helper';
 
 @pagify()
 export default class extends MyPage {
@@ -22,15 +23,20 @@ export default class extends MyPage {
   }
 
   choseType(e) {
+    const price = e.currentTarget.dataset.price
+    const type = e.currentTarget.dataset.type
     this.setDataSmart({
       activeIndex: e.currentTarget.dataset.index
+    })
+    wxp.navigateTo({
+      url: `${getPageConfig('user/pay').url}?type=${type}&price=${price}`
     })
   }
 
   async getUserInfo() {
     let res = wxp.getStorageSync('userinfo')
     this.setDataSmart({
-      userList:res.userInfo
+      userList: res.userInfo
     })
   }
 
