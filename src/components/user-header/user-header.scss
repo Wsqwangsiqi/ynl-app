@@ -18,11 +18,13 @@
       justify-content: center;
       align-items: center;
       .user-header{
-          width: r(150);
-          height: r(150);
+          width: r(125);
+          height: r(125);
+          border-radius: 50%;
       }
       .welcome{
           color:white;
+          margin-top: r(10)
       }
   }
 }
