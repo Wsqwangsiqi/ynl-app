@@ -10,9 +10,9 @@ import { getPageConfig } from 'utils/helper';
 export default class extends MyApp {
   async onLaunch() {
     // 登录
-    let { code } = await wxp.login()
-    console.log('微信 code %o', code) // 发送 code 到后台换取 openId, sessionKey, unionId
-    wxp.setStorageSync('code', code)
+    // let { code } = await wxp.login()
+    // console.log('微信 code %o', code) // 发送 code 到后台换取 openId, sessionKey, unionId
+    // wxp.setStorageSync('code', code)
     // 获取用户信息
     let setting = await wxp.getSetting()
     if (setting.authSetting['scope.userInfo']) {
