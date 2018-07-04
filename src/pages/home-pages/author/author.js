@@ -27,9 +27,26 @@ export default class extends MyPage {
     }
   }
 
-  bindGetUserInfo(e) {
+  async bindGetUserInfo(e) {
     // 用户点击了授权
     if (e.detail.errMsg === 'getUserInfo:ok') {
+      let { code } = await wxp.login()
+      // wxp.request({
+      //   url:'https://wxapp.yingnengliang.com/customers/wxlogin',
+      //   data:{
+      //     iv:e.detail.iv,
+      //     encryptedData:e.detail.encryptedData,
+      //     code:code
+      //   },
+      //   method:'POST',
+      //   success:function (res) {
+      //       console.log(res)
+      //   },
+      //   fail:function (err) {
+      //     console.log(err);
+
+      //   }
+      // })
       wxp.setStorageSync('userinfo', e.detail)
       wxp.switchTab({
         url: `${getPageConfig('home/index').url}`
