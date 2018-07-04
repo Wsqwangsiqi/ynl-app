@@ -22,6 +22,9 @@ export default {
   'home/undone': {
     url: '/pages/home-pages/undone/undone'
   },
+  'home/author': {
+    url: '/pages/home-pages/author/author'
+  },
   /**
    * code 扫码模块
    */

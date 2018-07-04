@@ -1,0 +1,7 @@
+<!--
+  author 页面
+  Create at 2018-07-04 14:59
+-->
+<view class="p-author">
+ <button wx:if="{{canIUse}}"   open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">点击授权登录</button>
+</view>

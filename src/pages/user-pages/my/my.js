@@ -9,13 +9,23 @@ export default class extends MyPage {
   pageName = 'user/my'
 
   data = {
-    userList: {
-      Id: '微信Id',
-      img: 'https://api.vtrois.com/image/180'
-    }
+    userList: { }
   }
 
-  async onLoad(options) {}
+  async onLoad(options) {
+    await this.getUserInfo()
+  }
+
+
+
+
+
+  async getUserInfo() {
+    let res = wxp.getStorageSync('userinfo')
+    this.setDataSmart({
+      userList:res.userInfo
+    })
+  }
 
   toOrder(e) {
     switch (e.currentTarget.dataset.type) {
@@ -38,4 +48,8 @@ export default class extends MyPage {
         break
     }
   }
+
+
+
+
 }
